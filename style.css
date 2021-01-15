@@ -1,5 +1,15 @@
-body{
-    background-image : -moz-linear-gradient(rgb(230, 101, 122),white,pink);
+
+.flexdiv{
+    width:auto;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    align-items:center;
+    margin: 20px;
+    direction: col;
+    border: 10px;
+    align-self: center;
 }
 
 #heading{
@@ -10,7 +20,32 @@ font-weight: bold;
 background: rgb(199, 71, 92);
 color:white;
 text-align: center;
+margin-top: -10px;
+margin-left: -20px;
+margin-right: -20px;
+margin-bottom: 10px;
+text-decoration: underline;
 }
+
+#about{
+    color:white;
+    font-size: 30px;
+    text-align: left;
+    position: relative;
+    background-color: lightcoral;
+    margin-left: 10%;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    border-color: black;
+    border-radius: 2px;
+    padding: 20px;
+  
+}
+
+
 body{
-    background-image: linear-gradient(rgb(230, 101, 122),white,pink);
+    background-image: linear-gradient(to bottom right,rgb(230, 101, 122),rgb(226, 213, 213),pink);
+}
+img{
+     border-radius: 50%;
 }
