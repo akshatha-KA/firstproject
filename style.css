@@ -1,0 +1,16 @@
+body{
+    background-image : -moz-linear-gradient(rgb(230, 101, 122),white,pink);
+}
+
+#heading{
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+font-weight: bold;
+background: rgb(199, 71, 92);
+color:white;
+text-align: center;
+}
+body{
+    background-image: linear-gradient(rgb(230, 101, 122),white,pink);
+}
