@@ -6,57 +6,37 @@
         <link href="style.css" rel="stylesheet"/>
         <meta name="description" content="This is a sample of Akshatha's Profile"/>
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <style>*{box-sizing: border-box;
+        }</style>
     </head>
-    <body >      
-        
-           <div id="heading">Akshatha KA</div>
-           <br><br>
-           <div class="flexdiv">
-           <div><img src="me.jpeg" width="200" height="250" margin-left="10" /></div>
-           <div id="about">About me:<br/>
-            My goal is to excel in my career by learning<br/>
-            new concepts and languages along with keeping<br/>
-            up with the current technological trends<br/> 
-            inorder to improve my overall skills to fulfill<br/>
-            both personal and professional goals.</div>
-           </div>
-           <div id="heading"><U>QUALIFICATION:</U></div>
-         <div class="flexdiv1">
-            <div id="elem">
-              <b>EDUCATION:</b>
-             <table>
-              <thead>
-               <tr>
-                <th>Certification</th>
-                <th>Organization</th>
-                <th>%</th>
-                <th>Year</th>
-              </tr>
-             </thead>
-             <tbody>
-              <tr>
-                <td>HighSchool</td>
-                <td>Amrita Vidyalayam</td>
-                <td>9</td>
-                <td>2015</td>
-              </tr>
-              <tr>
-                <td>PUC</td>
-                <td>Vijaya Vittala</td>
-                <td>93.6%</td>
-                <td>2017</td>
-              </tr>
-              <tr>
-                <td>Integrated MCA</td>
-                <td>Amrita Vishwavidyapeetam</td>
-                <td>9.02</td>
-                <td>2017 - 2022</td>
-              </tr>
-             </tbody>
-             </table>
+    <body ><center>
+        <div class="header">
+            <center><img src="me.jpeg" width="200" height="250" margin-left="10" />
+            <h1>Akshatha K.A</center></h1>
+        </div>
+<div class="header">
+        <div class="flexdiv3">
+            <div class="flexdiv2">
+                <div id="content">
+                    <div id="heading">PROFILE:</div>
+                    <ul type="square">
+                        <li>DOB:<br>31 May 1999</li>
+                        <li>Languages:<br>English,Hindi,Kannada,Telugu</li>
+                        <li>Hobby:<br>Painting,Singing</li>
+                    </ul>
             </div>
-            <div id="ele">
-                <b>TECHNICAL SKILLS:</b>
+
+            <div id="content">
+                    <div id="heading">CONTACT ME:</div>
+                    <ul type="square">
+                        <li>Email: kumariakshatha6@gmail.com</li>
+                        <li>Phone: 8074520163</li>
+                        <li>Address: #205, Cftri Layout, Mysuru.</li>
+                    </ul>
+            </div>
+
+            <div id="content">
+                <div id="heading">TECHNICAL SKILLS</div>
                 <ul>
                   <li>Coding in C</li>
                    <li> C++</li>
@@ -65,9 +45,97 @@
                     <li>HTML</li>
                 </ul>
             </div>
+            
+            <div id="content">
+                <div id="heading">INTERESTS</div>
+                <ul>
+                  <li>Image Processing</li>
+                   <li>Web Designing</li>
+                    <li>Software Devlopment</li>
+                </ul>
+            </div>
+
+            <div id="content">
+                <div id="heading">how to contact you?</div>
+                <form>
+                Name:<input type="text" id="nameInput" placeholder="Enter your name"/><br/>
+                Email:<input type="email" placeholder="Enter your email"/><br/>
+                Phone:<input type="tel" placeholder="Enter your phone number"/><br/>
+            </form>
+           <button onclick="submit()">Submit</button>
+           <script src="script.js"></script>
+       </div>    
+
+            </div>
+            <div class="flexdiv2">
+
+                <div id="content">
+                    <div id="heading">CAREER OBJECTIVE</div>
+                    My goal is to excel in my career by learning<br/>
+                    new concepts and languages along with keeping<br/>
+                    up with the current technological trends<br/> 
+                    inorder to improve my overall skills to fulfill<br/>
+                    both personal and professional goals.
+                </div>
+
+                   <div id="content">
+                   <div id="heading">EDUCATION</div>
+                   <table>
+                    <thead>
+                     <tr>
+                      <th>Course</th>
+                      <th>Org</th>
+                      <th>%</th>
+                      <th>Year</th>
+                    </tr>
+                   </thead>
+                   <tbody>
+                    <tr>
+                      <td>HighSchool</td>
+                      <td>Amrita Vidyalayam</td>
+                      <td>9</td>
+                      <td>2015</td>
+                    </tr>
+                    <tr>
+                      <td>PUC</td>
+                      <td>Vijaya Vittala</td>
+                      <td>93.6%</td>
+                      <td>2017</td>
+                    </tr>
+                    <tr>
+                      <td>Integrated MCA</td>
+                      <td>Amrita Vishwavidyapeetam</td>
+                      <td>9.02</td>
+                      <td>2022</td>
+                    </tr>
+                   </tbody>
+                   </table>
+                  </div>
+
+                <div id="content">
+                    <div id="heading">PROJECTS</div>
+                    <span><b><u>Leave Management System:</u></b><br/>2 months<br/>
+                        This is a simple core java leave application<br>
+                        to keep track of the leave, onduty leave or paid<br>
+                         leave taken by students and teachers of the organization.<br></span>
+                    <span><b><u>A novel computational model for identification<br> of characters in english documents:</u></b><br>4 months<br>
+                        This is a paper which discusses the techniques <br>
+                        and problems related to the identification of english<br>
+                         characters and digits from documents such as medical<br> receipts, shopping bills, etc.</span>
+                </div>
+
+                <div id="content">
+                    <div id="heading">SOFTWARE PROFECIENCY</div>
+                    <ul type="disc">
+                      <li>Languages :<br> C, C#, C++, Java, HTML</li>
+                      <li>Operating System:<br> Turbo C, C# in Visual Studio, Android Studio, Packet Tracer</li>
+                      <li>Office Packages:<br> Microsoft Word, Microsoft Excel, Microsoft Powerpoint </li>
+                    </ul>
+                </div>
+
+            </div>
          </div>
-         <div id="heading"><U>PROJECTS:</U></div>
-         <p><b>Leave Management System:</b><br/>2 months<br/>This is a simple core java leave application to keep track of the leave, onduty leave or paid leave taken by students and teachers of the organization.<br></p>
-         <p><b>A novel computational model for identification of characters in english documents:</b><br>4 months<br>This is a paper which discusses the techniques and problems related to the identification of english characters and digits from documents such as medical receipts, shopping bills, etc.</p>
+        </div>
+        </center>
     </body>
 </html>

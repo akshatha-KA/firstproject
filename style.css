@@ -1,3 +1,8 @@
+h1{
+    color: white;
+    font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+}
 p{
     color: white;
     text-align: left;
@@ -10,7 +15,7 @@ p{
 #heading{
 font-style: italic;
 font-family: 'Times New Roman', Times, serif;
-font-size: 50px;
+font-size: 35px;
 font-weight: bold;
 background: rgb(216, 108, 126);
 color:white;
@@ -22,12 +27,12 @@ margin-bottom: 10px;
 text-decoration: underline;
 }
 
-#about{
+#content{
     color:white;
-    font-size: 30px;
+    font-size: auto;
     text-align: left;
     position: relative;
-    background-color:  rgba(241, 54, 116, 0.507);
+    background-color: rgba(255, 192, 203, 0.26);
     margin: 10%;
     font-style: oblique;
     font-family:'Times New Roman', Times, serif;
@@ -40,18 +45,12 @@ text-decoration: underline;
 
 body{
     background-image: url("bg.jpg");
-    background-repeat: no-repeat;
     background-size: auto;
 }
 img{
      border-radius: 50%;
 }
-table{
-    border: 8px;
-    text-align: center;
-    align-items: center;
-    border-color: black;
-}
+
 thead{
     height: 45px;
     width: 45px;
@@ -61,9 +60,9 @@ thead{
     font-family:'Times New Roman', Times, serif;
 }
 td{
-    height: 45x;
-    width: 45px;
-    font-size: 25px;
+    height:auto ;
+    width: auto;
+    font-size: auto;
     color:white;
     font-style: oblique;
     font-family:'Times New Roman', Times, serif;
@@ -109,7 +108,52 @@ td{
     justify-content:center;
     align-items:center;
     margin: 20px;
-    direction: column;
+    direction: ltr;
     border: 10px;
 }
+.flexdiv2{
+    display:flexbox;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    flex-direction: column;
+    float:left;
+    width: 50%;
+    height:max-content;
+    margin: 50px;
+}
+.flexdiv3{
+    display:flex;
+    flex-wrap: table;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-direction: row;
+    align-content: center;
+    float: none;
+    align-items: center;
+    height: auto;
+    width:auto;
+    width: max-content;
+    clear: both;
+    content: "";
 
+}
+
+span{
+    color: white;
+    margin: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    background-color: rgba(219, 90, 111, 0.596);
+}
+
+.col{
+    float:left;
+    width: 50%;
+    padding:10px;
+    height:max-content;
+}
